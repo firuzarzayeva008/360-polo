@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background: linear-gradient(#d5d5d5, #fff, #fff, #fff);
+  padding: 37px 0 24px 0;
+  text-align: center;
+}
+
+.mobil-menu .mobil-logo {
+  padding: 20px 50px;
+}
+
+.mobil-bar li {
+  font: 0.7em Tahoma, sans-serif;
+  color: #b7b7b7;
+  padding: 0 8px 8px 8px;
+}
+
+.mobil-bar li a {
+  display: block;
+  font: bold 0.9rem Georgia, serif;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.mobil-bar {
+  padding: 0px 40px;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+main {
+  background: #fff url("/img/mainbg.jpg") repeat-x;
+  padding: 20px 0 0 0;
+}
+
+#slider {
+  height: 340px;
+  border: 1px solid #c6c6c6;
+  border-radius: 8px;
+  background: url("img/slider1.jpg") center/cover;
+}
+
+h1 {
+  font: bold 1.5em Georgia, serif;
+  color: #000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+}
+
+h2 {
+  font: 1.3em Georgia, serif;
+  letter-spacing: 1px;
+  color: #11719e;
+  margin: 30px 0 0 0;
+}
+
+h6 {
+  font: 0.75em Helvetica, serif;
+  color: #8c8c8c;
+}
+
+p {
+  width: 90%;
+  height: auto;
+  font: 13px "Helvetica";
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  color: #3e3e3e;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+article img {
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 6px;
+  background: #f3f3f3;
+  margin: 16px 0;
+}
+.btn1 {
+  border: 1px solid #d8d8d8;
+  font: 0.75em Helvetica, sans-serif;
+  color: #016999;
+  background: linear-gradient(to right, #e8e8e8, #f7f7f7, #e8e8e8, #eee);
+}
+.btn2 {
+  border: 1px solid #004a80;
+  font: 0.75em Georgia, serif;
+  color: #fff;
+  background: linear-gradient(to right, #4478ac, #4c84bb, #4377ab, #5c8db1);
+}
+
+.col .news img {
+  float: left;
+  margin-right: 15px;
+  width: 58px;
+  height: 58px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #cfcfcf;
+}
+
+.col p {
+  padding: 10px 0 0 0;
+}
+.so form {
+  padding: 10px 0 0 0;
+}
+.btn1,
+.btn2 {
+  display: block;
+  width: 160px;
+  padding: 6px 12px;
+  margin: 10px 0;
+  border-radius: 4px;
+  text-align: left;
+}
+.btn1 span,
+.btn2 span {
+  float: right;
+}
+
+#icon a {
+  font-size: 3.2em;
+  color: #aaa;
+  width: 50px;
+  padding: 10px 0 30px 0px;
+}
+.so {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+.col .pad {
+  padding: 10px 10px;
+}
+.fa-square-rss:hover {
+  color: orange !important;
+}
+.fa-square-facebook:hover {
+  color: darkblue !important;
+}
+.fa-linkedin:hover {
+  color: turquoise !important;
+}
+.fa-square-youtube:hover {
+  color: red !important;
+}
+.fa-square-tumblr:hover {
+  color: aqua !important;
+}
+h3 {
+  font: bold 1.1em Georgia, serif;
+  color: #444;
+  border-bottom: 1px dashed #d3d3d3;
+  padding: 6px 0;
+}
+.row {
+  margin: 10px 0;
+}
+footer {
+  height: 200px;
+  background: #333;
+  border-top: 10px solid #4c4c4c;
+}
+
+footer .ft{
+    color: white;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .mobil-menu {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+  }
+
+  .desktop-menu .logo {
+    padding: 20px 60px;
+  }
+
+  .desktop-menu .logo img {
+    width: 240px;
+  }
+
+  .desktop-menu ul {
+    padding: 20px 200px;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    white-space: nowrap;
+  }
+
+  .desktop-menu ul li a {
+    font: bold 0.9rem Georgia, serif;
+    text-transform: uppercase;
+    color: #333;
+  }
+
+  .desktop-menu ul li span {
+    display: block;
+    font-size: 11px;
+    font-family: Tahoma, sans-serif;
+    color: #999;
+    margin-top: 2px;
+    text-transform: none;
+  }
+
+  .container {
+    max-width: 940px;
+    margin: auto;
+  }
+
+  header {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .mobil-menu .mobil-logo {
+    padding: 10px 20px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  .col {
+    width: 33.33%;
+    padding: 10px;
+  }
+}
